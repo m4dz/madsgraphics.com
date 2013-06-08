@@ -1,0 +1,163 @@
+body {
+  background-color: #efefef;
+  font-size: 1/1.68em;
+  font-family: 'Josefin Slab',Times,serif;
+}
+
+h1 {
+  font-family: 'Kreon',Times,serif;
+  color: rgb(13, 128, 200);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(13, 128, 200);
+}
+
+a:hover,
+a:focus {
+  text-decoration: underline;
+}
+
+a[lang="fr"]:after {
+  content: " [fr]";
+  display: inline;
+  color: #545454;
+  font-size: 0.8em;
+}
+
+abbr {
+  cursor: help;
+}
+
+#container {
+  width: 80%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+header {
+  float: right;
+}
+
+header h1 {
+  display: none;
+}
+
+#tagline {
+  line-height: 80px;
+  font-family: 'Kreon',Times,serif;
+  font-size: 1.4em;
+  color: #e3e3e3;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.35), 0 1px 0 rgba(255, 255, 255, 0.65);
+}
+
+nav {
+  float: left;
+}
+
+nav ul {
+  padding-left: 0;
+}
+
+nav li {
+  display: inline-block;
+
+  width: 80px;
+  height: 80px;
+}
+
+nav li img {
+  display: block;
+  margin: 20px;
+}
+
+section {
+  clear: both;
+  padding: 1em 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.35);
+}
+
+.subsection + .subsection {
+  margin-top: 4em;
+}
+
+section h1 {
+  float: right;
+  text-align: right;
+  width: 30%;
+  position: relative;
+  top: -0.8em;
+}
+
+section p,
+section ul,
+section dl {
+  width: 65%;
+}
+
+section dt {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+section dd {
+  border-left: 1px dotted #545454;
+  margin-left: 0.5em;
+  margin-bottom: 2em;
+  padding-left: 0.5em;
+}
+
+#tl dl {
+  width: 30%;
+  float: left;
+}
+
+#tl dl + dl {
+  margin-left: 5%;
+}
+
+#rtimeline {
+  clear: both;
+  width: 100%;
+  height: 260px;
+}
+
+#speaks ul {
+  padding-left: 1em;
+}
+
+footer {
+  overflow: auto;
+  background-color: #333;
+  color: #efefef;
+}
+
+footer ul {
+  padding-left: 1em;
+}
+
+footer ul a {
+  color: #c3c3c3;
+  text-decoration: underline;
+}
+
+#presentation {
+  float: right;
+  width: 35%;
+  margin-bottom: 0;
+
+  font-size: 2em;
+}
+
+#copyright {
+  clear: both;
+  padding: 0.5em 1em;
+  font-weight: 200;
+  font-size: 0.8em;
+  color: #999;
+}
+
+#copyright a {
+  color: #999;
+}
