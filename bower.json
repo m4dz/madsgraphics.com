@@ -2,6 +2,7 @@
   "name": "Resume",
   "version": "0.1.0",
   "dependencies": {
-    "normalize-css": "~2.1.2"
+    "normalize-css": "~2.1.2",
+    "html5shiv": "~3.6.2"
   }
 }
