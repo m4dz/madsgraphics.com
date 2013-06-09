@@ -20,7 +20,7 @@ a:focus {
 }
 
 a[lang="fr"]:after {
-  content: " [fr]";
+  content: " [fr]";
   display: inline;
   color: #545454;
   font-size: 0.8em;
